@@ -1,0 +1,61 @@
+<footer id="footer">
+        <div class="inner sep-bottom-md">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3 col-sm-6">
+                <div class="widget sep-top-lg"><img src="img/logo-white.png" alt="" class="logo"><small class="sep-top-xs sep-bottom-md"></small>
+                  
+                </div>
+              </div>
+			  <div class="col-md-3 col-sm-6">
+                <div class="widget sep-top-lg">
+                  <h6 class="upper widget-title">Stay connected</h6>
+                  <ul class="social-icon sep-top-xs">
+                    <li><a href="https://twitter.com/LoyolaSchool" class="fa fa-twitter fa-lg"></a></li>
+                    <li><a href="https://www.facebook.com/pages/Loyola-School-Thiruvananthapuram/209508455738292" class="fa fa-facebook fa-lg"></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="widget sep-top-lg">
+                  <h6 class="upper widget-title">Visit Us</h6>
+                  <ul class="widget-address sep-top-xs">
+                    <li><i class="fa fa-map-marker fa-lg"></i><small>Loyola School, Sreekaryam<br>Trivandrum, Kerala<br>India - 695017</small></li>
+                    <!--li><i class="fa fa-phone fa-lg"></i><small>(+39) 123-456-789 /<br>(+39) 123-456-789</small></li>
+                    <li><i class="fa fa-envelope fa-lg"></i><small><a href="#">n@px.com /</a><br><a href="#">support@px.com</a></small></li>
+                    <li><i class="fa fa-clock-o fa-lg"></i><small>Mon / Friday<br>09:00 - 13.00 / 14:00 - 18:00</small></li>-->
+                  </ul>
+                </div>
+              </div>
+			  <div class="col-md-3 col-sm-6">
+                <div class="widget sep-top-lg">
+                  <h6 class="upper widget-title">Related Websites</h6>
+                  <ul class="widget-address sep-top-xs">
+                    <li><i class="fa fa-globe fa-lg"></i><a href="http://lobaglobal.com/" target="_blank">lobaglobal.com</a></li>
+					<li><i class="fa fa-globe fa-lg"></i><a href="http://loyolites.com/" target="_blank">loyolites.com</a></li>
+					<li><i class="fa fa-globe fa-lg"></i><a href="http://loyolatvm87.org/" target="_blank">loyolatvm87.org</a></li>
+                    <li><i class="fa fa-laptop fa-lg"></i><a href="http://pixelblenders.com/" target="_blank">pixelblenders.com</a></li>
+                  </ul>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="copyright sep-top-xs sep-bottom-xs">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12"><small><a href="http://pixelblenders.com/" target="_blank"> Designed by Naveen Shaji - &copy;2015 PixelBlenders - All rights reserved.</a></small></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div id="back_to_top"><a href="#" class="fa fa-arrow-up fa-lg"></a></div>
+    </div>
+    
+    <script src="scripts/vendor/plugin.js"></script>
+    <script src="scripts/vendor/bootstrap.js"></script>
+    <script src="scripts/vendor/bootstrap-extend.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

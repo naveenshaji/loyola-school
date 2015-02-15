@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Loyola School, Trivandrum</title>
+    <meta name="description" content="Envisioned by the Jesuits and established in1961, Loyola School has completed fifty years of service. Ensconced on an extensive plot of land on the outskirts of the capital city and yet easily accessible to all its amenities, the school provides a sylvan ambience to the 1750 students studying in classes ranging from UKG to Plus Two.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory-->
+    <link rel="stylesheet" href="../fonts.googleapis.com/css@family=Montserrat_3A400,700_257COpen+Sans_3A300italic,400italic,600italic,700italic,800italic,300,400,600,700">
+    <link rel="stylesheet" href="styles/vendor.css">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link id="primary_color_scheme" rel="stylesheet" href="styles/theme_meadow.css">
+    <script src="scripts/vendor/modernizr.js"></script>
+    <noscript>
+      <link rel="stylesheet" type="text/css" href="bower_components/SlitSlider/css/styleNoJs.css">
+    </noscript>
+  </head>
+  <body>
+    <div id="load"></div><!--[if lt IE 9]>
+    <p class="browsehappy">You are using an strong outdated browser. <br>Please <a href="../browsehappy.com/default.htm">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="page">
+      <!-- Start Nav Section-->
+      <nav id="main-navigation" role="navigation" class="navbar navbar-fixed-top navbar-standard">
+        
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle"><i class="fa fa-align-justify fa-lg"></i></button><a href="index.php" class="navbar-brand"><img src="img/logo-white.png" alt="" class="logo-white"><img src="img/logo-dark.png" alt="" class="logo-dark"></a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <button type="button" class="navbar-toggle"><i class="fa fa-close fa-lg"></i></button>
+            <ul class="nav yamm navbar-nav navbar-left main-nav">
+                    <li class="dropdown"><a href="#" data-toggle="dropdown" data-hover="dropdown" id="menu_item_Home" data-ref="#" class="dropdown-toggle">About Us<span class="caret"></span></a>
+                      <ul aria-labelledby="menu_item_Home" class="dropdown-menu">
+							<cms:pages masterpage='content.php' folder='about' order='asc'>
+                              <li><a href="<cms:show k_page_link />" data-ref="index"><cms:show k_page_title /></a></li>
+							</cms:pages>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="#" data-toggle="dropdown" data-hover="dropdown" id="menu_item_Home" data-ref="#" class="dropdown-toggle">Milestones<span class="caret"></span></a>
+                      <ul aria-labelledby="menu_item_Home" class="dropdown-menu">
+							<cms:pages masterpage='content.php' folder='milestones' order='asc'>
+                              <li><a href="<cms:show k_page_link />" data-ref="index"><cms:show k_page_title /></a></li>
+							</cms:pages>
+                      </ul>
+                    </li>
+					<li class="dropdown"><a href="#" data-toggle="dropdown" data-hover="dropdown" id="menu_item_Home" data-ref="#" class="dropdown-toggle">LA Fest<span class="caret"></span></a>
+                      <ul aria-labelledby="menu_item_Home" class="dropdown-menu">
+                            <cms:pages masterpage='content.php' folder='lafest' order='asc'>
+                              <li><a href="<cms:show k_page_link />" data-ref="index"><cms:show k_page_title /></a></li>
+							</cms:pages>
+							  <li><a href="http://lafest.in/" target="_blank" data-ref="home-3">Website</a></li>
+                      </ul>
+                    </li>
+					<li class="dropdown"><a href="#" data-toggle="dropdown" data-hover="dropdown" id="menu_item_Home" data-ref="#" class="dropdown-toggle">Gallery<span class="caret"></span></a>
+                      <ul aria-labelledby="menu_item_Home" class="dropdown-menu">
+                              <li><a href="gallery.php" data-ref="index">Our Campus</a></li>
+                              <li><a href="gallery.php" data-ref="home-2">LA Fest</a></li>
+                              <li><a href="gallery.php" data-ref="home-3">Golden Jubilee</a></li>
+							  <li><a href="gallery.php" data-ref="home-3">Infrastructure</a></li>
+							  <li><a href="gallery.php" data-ref="home-3">Events</a></li>
+                      </ul>
+                    </li>
+					<li class="dropdown"><a href="#" data-toggle="dropdown" data-hover="dropdown" id="menu_item_Home" data-ref="#" class="dropdown-toggle">Alumni<span class="caret"></span></a>
+                      <ul aria-labelledby="menu_item_Home" class="dropdown-menu">
+                            <cms:pages masterpage='content.php' folder='alumni' order='asc'>
+                              <li><a href="<cms:show k_page_link />" data-ref="index"><cms:show k_page_title /></a></li>
+							</cms:pages>
+                              <li><a href="http://lobaglobal.com/" target="_blank" data-ref="home-3">Website</a></li>
+                      </ul>
+                    </li>
+					<li class="dropdown"><a href="#" data-toggle="dropdown" data-hover="dropdown" id="menu_item_Home" data-ref="#" class="dropdown-toggle">Miscellaneous<span class="caret"></span></a>
+                      <ul aria-labelledby="menu_item_Home" class="dropdown-menu">
+                            <cms:pages masterpage='content.php' folder='misc' order='asc'>
+                              <li><a href="<cms:show k_page_link />" data-ref="index"><cms:show k_page_title /></a></li>
+							</cms:pages>
+                      </ul>
+                    </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
